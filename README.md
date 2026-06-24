@@ -3,19 +3,20 @@
   Python Developer &nbsp;·&nbsp; Automation &nbsp;·&nbsp; Web Applications &nbsp;·&nbsp; Greater Manchester, UK
 </p>
 <p align="center">
+  <a href="https://legradik.github.io/">
+    <img src="https://img.shields.io/badge/Portfolio-legradik.github.io-1a9e9e?style=for-the-badge&logo=googlechrome&logoColor=white" />
+  </a>
+  &nbsp;
   <a href="https://github.com/LegradiK/LegradiK/raw/main/LegradiK_CV.pdf">
-    <img src="https://img.shields.io/badge/Download%20CV-PDF-0077B5?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" />
+    <img src="https://img.shields.io/badge/Download%20CV-PDF-e05c2a?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" />
   </a>
   &nbsp;
   <a href="mailto:legradi.kaho@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-0077B5?style=for-the-badge&logo=maildotru&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-6a5acd?style=for-the-badge&logo=maildotru&logoColor=white" />
   </a>
   &nbsp;
   <a href="https://github.com/LegradiK?tab=repositories">
-    <img src="https://img.shields.io/badge/GitHub-LegradiK-100000?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://legradik.github.io/">
-    <img src="https://img.shields.io/badge/Portfolio-Visit%20Site-1a9e9e?style=for-the-badge&logo=githubpages&logoColor=white" />
+    <img src="https://img.shields.io/badge/GitHub-LegradiK-2b2b2b?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
 

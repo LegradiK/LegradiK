@@ -14,6 +14,9 @@
   <a href="https://github.com/LegradiK?tab=repositories">
     <img src="https://img.shields.io/badge/GitHub-LegradiK-100000?style=for-the-badge&logo=github&logoColor=white" />
   </a>
+    <a href="https://legradik.github.io/">
+    <img src="https://img.shields.io/badge/GitHub-Portfolio-100000?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
 </p>
 
 ---

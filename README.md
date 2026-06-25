@@ -3,7 +3,7 @@
   Python Developer &nbsp;·&nbsp; Automation &nbsp;·&nbsp; Web Applications &nbsp;·&nbsp; Greater Manchester, UK
 </p>
 <p align="center">
-  <a href="https://legradik.github.io/">
+  <a href="https://legradik.github.io/" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-legradik.github.io-1a9e9e?style=for-the-badge&logo=googlechrome&logoColor=white" />
   </a>
   &nbsp;
@@ -15,7 +15,7 @@
     <img src="https://img.shields.io/badge/Email-Contact%20Me-6a5acd?style=for-the-badge&logo=maildotru&logoColor=white" />
   </a>
   &nbsp;
-  <a href="https://github.com/LegradiK?tab=repositories">
+  <a href="https://github.com/LegradiK?tab=repositories" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-LegradiK-2b2b2b?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>

@@ -52,14 +52,16 @@ Flask and Jinja2 web dashboard aggregating live data from multiple public APIs i
 
 ---
 
-### [Educational Apps Suite](https://github.com/LegradiK)
-A suite of three Flask-based web applications designed for primary school learners.
+[KS1 Learning Hub](https://github.com/LegradiK/ks1_learning_hub)
+A unified Flask web app of eight educational games for children aged 4–7, aligned with the UK KS1 curriculum. Built with Flask blueprints and an app factory pattern, with a shared design system across all games.
 
-- **Letter Quest** — KS1 crossword puzzle with a custom grid engine and a 674-word JSON bank across 22 categories
-- **Word Wizard** — Phonics quiz tailored to KS1 children, integrating Puter AI for text-to-speech with Web Speech API fallback and colour-coded letter feedback
-- **MathDrill** — Arithmetic practice tool with four operations, difficulty levels, and session-based score tracking
+* Letter Quest — KS1 crossword puzzle with a custom grid engine and a 674-word JSON bank across 22 categories
+* Word Wizard — Phonics quiz integrating Puter AI for text-to-speech with Web Speech API fallback and colour-coded letter feedback
+* Math Drill — Arithmetic practice with four operations, difficulty levels, and session-based score tracking
+* Story Detective — Mystery-themed reading comprehension game with gap-fill stories and tap-to-place word banks, split into Year 1 and Year 2 levels
+* Plus Sudoku, Coin Counter, Clock Master, and Match Pairs — covering logic, money, telling the time, and memory
 
-`Python` `Flask` `JavaScript` `Web Speech API` `AI Integration`
+`Python` `Flask` `Flask Blueprints` `Jinja2` `JavaScript` `Web Speech API` `AI Integration`
 
 ---
 

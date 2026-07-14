@@ -52,7 +52,7 @@ Flask and Jinja2 web dashboard aggregating live data from multiple public APIs i
 
 ---
 
-[KS1 Learning Hub](https://github.com/LegradiK/ks1_learning_hub)
+### [KS1 Learning Hub](https://github.com/LegradiK/ks1_learning_hub)
 A unified Flask web app of eight educational games for children aged 4–7, aligned with the UK KS1 curriculum. Built with Flask blueprints and an app factory pattern, with a shared design system across all games.
 
 * Letter Quest — KS1 crossword puzzle with a custom grid engine and a 674-word JSON bank across 22 categories

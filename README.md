@@ -53,10 +53,12 @@ Flask and Jinja2 web dashboard aggregating live data from multiple public APIs i
 ---
 
 ### [KS1 Learning Hub](https://github.com/LegradiK/ks1_learning_hub)
-**🔗 Live site: [ks1-learning-hub.onrender.com](https://ks1-learning-hub.onrender.com/)** *(free hosting — first load may take 30–60s)*
+**🔗 Live site: [ks1-learning-PythonAnywhere]([https://ks1-learning-hub.onrender.com/](https://kidslearninggames.pythonanywhere.com/))** *(free hosting — first load may take 30–60s)*
+For checking the website, login as user 'test' password '1234'
 
 A unified Flask web app of eight educational games for children aged 4–7, aligned with the UK KS1 curriculum. Built with Flask blueprints and an app factory pattern, with a shared design system across all games.
 
+* Bookshelf — Child can search and register books s/he has read so far or is currently reading. 
 * Letter Quest — KS1 crossword puzzle with a custom grid engine and a 674-word JSON bank across 22 categories
 * Word Wizard — Phonics quiz integrating Puter AI for text-to-speech with Web Speech API fallback and colour-coded letter feedback
 * Math Drill — Arithmetic practice with four operations, difficulty levels, and session-based score tracking

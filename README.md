@@ -72,17 +72,25 @@ Automated renewal of library books across two platforms (Spydus and BorrowBox) u
 
 ---
 
+### [Menu Planner](https://github.com/LegradiK/menu-planner-2)
+**🔗 Live site: [kahopythonbookshelf.pythonanywhere.com](https://kahopythonbookshelf.pythonanywhere.com/)** *(free hosting, so the first load may take 30–60s)*
+ 
+A Flask web app that plans a week of meals and turns them into a shopping list. It draws on a library of 130 recipes (mains, desserts and bread) and works out a balanced menu, using each recipe's portion "weight" to decide how many dishes fill the week.
+ 
+* **Menu builder:** generate a random weekly menu or hand-pick recipes, then search, add or delete recipes through the site
+* **Smart shopping list:** collects ingredients across the whole menu, cleans up names with regex (dropping descriptors, percentages and notes in brackets), merges duplicates and sorts everything into supermarket categories
+* **User accounts and calendar:** Flask-Login authentication with hashed passwords, and a SQLite database (via SQLAlchemy) that saves each confirmed menu to a calendar so past weeks can be reused
+* **Weekly email:** a scheduled GitHub Actions workflow emails a fresh menu and shopping list every Friday, with credentials kept in GitHub Secrets
+* **Code quality:** CSRF-protected forms with Flask-WTF, modular structure with Flask blueprints, and Pylint run in CI
+  
+`Python` `Flask` `SQLite` `SQLAlchemy` `Flask-Login` `Flask-WTF` `GitHub Actions` `Jinja2`
+
+---
+
 ### [Horizon Intelligence: Space Dashboard](https://github.com/LegradiK/all_about_space_web_app)
 Flask and Jinja2 web dashboard aggregating live data from multiple public APIs, including NASA APOD, EPIC, NeoWs, Launch Library 2, AuroraWatch UK and ISS tracking. Features interactive D3.js visualisations and structured data rendering.
 
 `Python` `Flask` `REST APIs` `D3.js` `Jinja2`
-
----
-
-### [Café Wi-Fi Finder](https://github.com/LegradiK/cafe_wifi_remoteworking_website_API)
-Database-driven Flask application with full CRUD functionality backed by SQLite. Demonstrates structured data handling, route management and query operations.
-
-`Python` `Flask` `SQLite`
 
 ---
 

@@ -72,14 +72,14 @@ Automated renewal of library books across two platforms (Spydus and BorrowBox) u
 
 ---
 
-### [Horizon Intelligence: Space Dashboard]([https://github.com/Legradi](https://github.com/LegradiK/all_about_space_web_app)K)
+### [Horizon Intelligence: Space Dashboard](https://github.com/Legradi](https://github.com/LegradiK/all_about_space_web_app)
 Flask and Jinja2 web dashboard aggregating live data from multiple public APIs, including NASA APOD, EPIC, NeoWs, Launch Library 2, AuroraWatch UK and ISS tracking. Features interactive D3.js visualisations and structured data rendering.
 
 `Python` `Flask` `REST APIs` `D3.js` `Jinja2`
 
 ---
 
-### [Café Wi-Fi Finder]([https://github.com/LegradiK](https://github.com/LegradiK/cafe_wifi_remoteworking_website_API))
+### [Café Wi-Fi Finder]([https://github.com/LegradiK](https://github.com/LegradiK/cafe_wifi_remoteworking_website_API)
 Database-driven Flask application with full CRUD functionality backed by SQLite. Demonstrates structured data handling, route management and query operations.
 
 `Python` `Flask` `SQLite`

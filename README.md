@@ -22,7 +22,7 @@
 
 ---
 
-I'm a self-driven Python developer with a background in customer-facing roles, now focused on building practical automation tools and web applications. I enjoy working through real problems methodically — from debugging CI pipelines to designing clean, modular code. Fluent in English and Japanese.
+I'm a self-driven Python developer with a background in customer-facing roles, now focused on building practical automation tools and web applications. I enjoy working through real problems methodically, from debugging CI pipelines to designing clean, modular code. Fluent in English and Japanese.
 
 ---
 
@@ -38,39 +38,49 @@ I'm a self-driven Python developer with a background in customer-facing roles, n
 
 ## Selected Projects
 
+### [KS1 Learning Hub](https://github.com/LegradiK/ks1_learning_hub)
+**🔗 Live site: [kidslearninggames.pythonanywhere.com](https://kidslearninggames.pythonanywhere.com/)**<br/>
+**Demo login:** username `test` · PIN `1234`
+
+A unified Flask web app where children aged 4–7 can learn, play and log their reading in one place, aligned with the UK KS1 curriculum. Built with Flask blueprints and an app factory pattern, with a shared design system across every section.
+
+**Platform features**
+* **Child accounts:** each child signs in with their name and a 4-digit PIN, and their progress is saved to their own account
+* **Progress report:** time spent and answers given in each game, plus the number of books read, available from the player menu
+* **Subject-based landing page:** content is grouped into School Subjects, Brain Games and My Bookshelf
+
+**My Bookshelf**
+* Children search for books and add the ones they've read or are reading, with covers and details fetched automatically from the Google Books API
+* Star ratings, short reviews, reread counts and a want-to-read list
+* Originally built as a standalone reading tracker, then merged into the hub and restyled to match it
+
+**Games**
+* **Letter Quest:** KS1 crossword puzzle with a custom grid engine and a 674-word JSON bank across 22 categories
+* **Word Wizard:** phonics quiz using Puter AI for text-to-speech, with a Web Speech API fallback and colour-coded letter feedback
+* **Math Drill:** arithmetic practice with four operations, difficulty levels and session-based score tracking
+* **Story Detective:** mystery-themed reading comprehension with gap-fill stories and tap-to-place word banks, split into Year 1 and Year 2 levels; stories live in a separate data module so new ones can be added without touching game logic
+* **Also:** Sudoku, Coin Counter, Clock Master and Match Pairs, covering logic, money, telling the time and memory
+
+`Python` `Flask` `Flask Blueprints` `Jinja2` `JavaScript` `Google Books API` `Web Speech API` `AI Integration` `Authentication`
+
+---
+
 ### [Library Book Renewal Automation](https://github.com/LegradiK/library_books_renewal_automation)
-Automated renewal of library books across two platforms (Spydus & BorrowBox) using Python and Playwright. Deployed via GitHub Actions on a daily schedule with secure multi-user credential handling, environment-scoped secrets, and screenshot-based CI debugging.
+Automated renewal of library books across two platforms (Spydus and BorrowBox) using Python and Playwright. Deployed via GitHub Actions on a daily schedule with secure multi-user credential handling, environment-scoped secrets and screenshot-based CI debugging.
 
 `Python` `Playwright` `GitHub Actions` `CI/CD` `Secrets Management`
 
 ---
 
-### [Horizon Intelligence — Space Dashboard](https://github.com/LegradiK)
-Flask and Jinja2 web dashboard aggregating live data from multiple public APIs including NASA APOD, EPIC, NeoWs, Launch Library 2, AuroraWatch UK, and ISS tracking. Features interactive D3.js visualisations and structured data rendering.
+### [Horizon Intelligence: Space Dashboard]([https://github.com/Legradi](https://github.com/LegradiK/all_about_space_web_app)K)
+Flask and Jinja2 web dashboard aggregating live data from multiple public APIs, including NASA APOD, EPIC, NeoWs, Launch Library 2, AuroraWatch UK and ISS tracking. Features interactive D3.js visualisations and structured data rendering.
 
 `Python` `Flask` `REST APIs` `D3.js` `Jinja2`
 
 ---
 
-### [KS1 Learning Hub](https://github.com/LegradiK/ks1_learning_hub)
-**🔗 Live site: [ks1-learning-PythonAnywhere](https://kidslearninggames.pythonanywhere.com/)** *(free hosting — first load may take 30–60s)*
-For checking the website, login as user 'test' password '1234'
-
-A unified Flask web app of eight educational games for children aged 4–7, aligned with the UK KS1 curriculum. Built with Flask blueprints and an app factory pattern, with a shared design system across all games.
-
-* Bookshelf — Child can search and register books s/he has read so far or is currently reading. 
-* Letter Quest — KS1 crossword puzzle with a custom grid engine and a 674-word JSON bank across 22 categories
-* Word Wizard — Phonics quiz integrating Puter AI for text-to-speech with Web Speech API fallback and colour-coded letter feedback
-* Math Drill — Arithmetic practice with four operations, difficulty levels, and session-based score tracking
-* Story Detective — Mystery-themed reading comprehension game with gap-fill stories and tap-to-place word banks, split into Year 1 and Year 2 levels
-* Plus Sudoku, Coin Counter, Clock Master, and Match Pairs — covering logic, money, telling the time, and memory
-
-`Python` `Flask` `Flask Blueprints` `Jinja2` `JavaScript` `Web Speech API` `AI Integration`
-
----
-
-### [Café Wi-Fi Finder](https://github.com/LegradiK)
-Database-driven Flask application with full CRUD functionality backed by SQLite. Demonstrates structured data handling, route management, and query operations.
+### [Café Wi-Fi Finder]([https://github.com/LegradiK](https://github.com/LegradiK/cafe_wifi_remoteworking_website_API))
+Database-driven Flask application with full CRUD functionality backed by SQLite. Demonstrates structured data handling, route management and query operations.
 
 `Python` `Flask` `SQLite`
 
@@ -78,7 +88,7 @@ Database-driven Flask application with full CRUD functionality backed by SQLite.
 
 <h3 align="left">Available for hire</h3>
 <p align="left">
-  I bring a rare combination of technical ability and strong communication skills — built across software projects, multilingual customer support, and cross-cultural collaboration.<br/><br/>
+  I bring a rare combination of technical ability and strong communication skills, built across software projects, multilingual customer support and cross-cultural collaboration.<br/><br/>
   If you're looking for someone who writes clean code, debugs methodically, and communicates clearly with both technical and non-technical teams, I'd love to hear from you.<br/><br/>
   <a href="mailto:legradi.kaho@gmail.com">
     <img src="https://img.shields.io/badge/Get%20In%20Touch-Email-0077B5?style=for-the-badge&logo=maildotru&logoColor=white" />
